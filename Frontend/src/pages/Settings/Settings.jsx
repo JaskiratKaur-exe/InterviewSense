@@ -1,5 +1,5 @@
-function Dashboard() {
-  return <h1>Dashboard</h1>;
+function Settings() {
+  return <h1>Settings</h1>;
 }
 
-export default Dashboard;
+export default Settings;

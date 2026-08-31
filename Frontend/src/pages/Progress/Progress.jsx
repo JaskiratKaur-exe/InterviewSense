@@ -1,5 +1,5 @@
-function Dashboard() {
-  return <h1>Dashboard</h1>;
+function Progress() {
+  return <h1>Progress</h1>;
 }
 
-export default Dashboard;
+export default Progress;

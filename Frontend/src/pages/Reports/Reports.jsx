@@ -1,5 +1,5 @@
-function Dashboard() {
-  return <h1>Dashboard</h1>;
+function Reports() {
+  return <h1>Reports</h1>;
 }
 
-export default Dashboard;
+export default Reports;

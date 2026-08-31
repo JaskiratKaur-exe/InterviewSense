@@ -1,5 +1,5 @@
-function Dashboard() {
-  return <h1>Dashboard</h1>;
+function Profile() {
+  return <h1>Profile</h1>;
 }
 
-export default Dashboard;
+export default Profile;

@@ -1,5 +1,5 @@
-function Dashboard() {
-  return <h1>Dashboard</h1>;
+function MockInterview() {
+  return <h1>MockInterview</h1>;
 }
 
-export default Dashboard;
+export default MockInterview;
