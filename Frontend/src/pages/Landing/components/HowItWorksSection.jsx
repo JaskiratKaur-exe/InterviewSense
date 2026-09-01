@@ -24,18 +24,18 @@ const steps = [
 
 export function HowItWorksSection() {
   return (
-    <section id="how-it-works" className="py-20 bg-[#f8f9fc]">
+    <section id="how-it-works" className="py-20 bg-[#faf8fb]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Section Title */}
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
-          <span className="text-xs font-bold uppercase tracking-wider text-purple-600">
+          <span className="text-xs font-bold uppercase tracking-wider text-[#8c60a2]">
             Simple 3-Step Process
           </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight font-['Plus_Jakarta_Sans']">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#2b1d30] tracking-tight font-['Plus_Jakarta_Sans']">
             How InterviewSense Works
           </h2>
-          <p className="text-sm sm:text-base text-slate-600">
+          <p className="text-sm sm:text-base text-[#6e5975]">
             From setup to comprehensive performance breakdown in under 15 minutes.
           </p>
         </div>
@@ -47,20 +47,20 @@ export function HowItWorksSection() {
             return (
               <div
                 key={idx}
-                className="bg-white p-8 rounded-3xl border border-slate-100 card-shadow card-shadow-hover relative flex flex-col items-start"
+                className="bg-white p-8 rounded-3xl border border-[#ede3f0] card-shadow card-shadow-hover relative flex flex-col items-start"
               >
-                <span className="text-4xl font-black text-purple-100 font-mono absolute top-6 right-6">
+                <span className="text-4xl font-black text-[#ce93cb]/30 font-mono absolute top-6 right-6">
                   {item.step}
                 </span>
 
-                <div className="w-12 h-12 rounded-2xl bg-purple-50 text-purple-600 border border-purple-100 flex items-center justify-center mb-6">
+                <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-[#8c60a2]/15 to-[#fa846e]/15 text-[#8c60a2] border border-[#ce93cb]/40 flex items-center justify-center mb-6">
                   <Icon className="w-6 h-6" />
                 </div>
 
-                <h3 className="text-lg font-bold text-slate-900 mb-2">
+                <h3 className="text-lg font-bold text-[#2b1d30] mb-2">
                   {item.title}
                 </h3>
-                <p className="text-sm text-slate-600 leading-relaxed">
+                <p className="text-sm text-[#6e5975] leading-relaxed">
                   {item.description}
                 </p>
               </div>

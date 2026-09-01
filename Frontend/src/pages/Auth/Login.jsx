@@ -60,10 +60,10 @@ export function Login() {
       subtitle="Sign in to track your mock interview performance and AI reports."
     >
       {/* 1-Click Demo Login Banner */}
-      <div className="p-3.5 rounded-2xl bg-purple-50 border border-purple-100 flex items-center justify-between">
+      <div className="p-3.5 rounded-2xl bg-gradient-to-r from-[#8c60a2]/10 via-[#ce93cb]/10 to-[#fa846e]/10 border border-[#ce93cb]/40 flex items-center justify-between">
         <div>
-          <p className="text-xs font-bold text-purple-900">Project Evaluation Demo</p>
-          <p className="text-[11px] text-purple-600">Quick sign in with preloaded mock candidate data</p>
+          <p className="text-xs font-bold text-[#6e4876]">Project Evaluation Demo</p>
+          <p className="text-[11px] text-[#8c60a2]">Quick sign in with preloaded mock candidate data</p>
         </div>
         <Button
           type="button"
@@ -110,7 +110,7 @@ export function Login() {
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                className="text-slate-400 hover:text-slate-600 focus:outline-none cursor-pointer"
+                className="text-[#a08ba7] hover:text-[#6e4876] focus:outline-none cursor-pointer"
               >
                 {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
               </button>
@@ -120,15 +120,15 @@ export function Login() {
         </div>
 
         <div className="flex items-center justify-between text-xs pt-1">
-          <label className="flex items-center gap-2 text-slate-600 cursor-pointer">
+          <label className="flex items-center gap-2 text-[#6e5975] cursor-pointer">
             <input
               type="checkbox"
-              className="rounded border-slate-300 text-purple-600 focus:ring-purple-500"
+              className="rounded border-[#ede3f0] text-[#8c60a2] focus:ring-[#8c60a2]"
             />
             <span>Remember me</span>
           </label>
 
-          <a href="#" className="font-semibold text-purple-600 hover:text-purple-700">
+          <a href="#" className="font-semibold text-[#8c60a2] hover:text-[#6e4876]">
             Forgot password?
           </a>
         </div>
@@ -145,9 +145,9 @@ export function Login() {
       </form>
 
       {/* Switch to Register */}
-      <p className="text-center text-xs text-slate-500 pt-2">
+      <p className="text-center text-xs text-[#6e5975] pt-2">
         Don't have an account yet?{' '}
-        <Link to={ROUTES.REGISTER} className="font-bold text-purple-600 hover:text-purple-700">
+        <Link to={ROUTES.REGISTER} className="font-bold text-[#8c60a2] hover:text-[#6e4876]">
           Create account
         </Link>
       </p>

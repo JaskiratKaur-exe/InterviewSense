@@ -10,15 +10,15 @@ const tips = [
 
 export function TipsCard() {
   return (
-    <Card className="border border-slate-100">
+    <Card className="border border-[#ede3f0]">
       <CardHeader className="mb-2">
         <CardTitle>Tips for You</CardTitle>
       </CardHeader>
 
       <ul className="space-y-3">
         {tips.map((tip, idx) => (
-          <li key={idx} className="flex items-start gap-2.5 text-xs text-slate-600 font-medium leading-relaxed">
-            <CheckCircle2 className="w-4 h-4 text-purple-600 shrink-0 mt-0.5" />
+          <li key={idx} className="flex items-start gap-2.5 text-xs text-[#6e5975] font-medium leading-relaxed">
+            <CheckCircle2 className="w-4 h-4 text-[#8c60a2] shrink-0 mt-0.5" />
             <span>{tip}</span>
           </li>
         ))}

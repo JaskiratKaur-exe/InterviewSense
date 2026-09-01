@@ -8,7 +8,7 @@ export function DashboardLayout({ children, title, subtitle }) {
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-[#f8f9fc] flex text-slate-800">
+    <div className="min-h-screen bg-[#faf8fb] flex text-[#2b1d30]">
       {/* Desktop Persistent Sidebar */}
       <div className="hidden lg:block shrink-0 sticky top-0 h-screen">
         <Sidebar />
@@ -17,7 +17,7 @@ export function DashboardLayout({ children, title, subtitle }) {
       {/* Mobile Drawer Overlay */}
       {mobileSidebarOpen && (
         <div
-          className="fixed inset-0 z-40 bg-slate-900/40 backdrop-blur-xs lg:hidden"
+          className="fixed inset-0 z-40 bg-[#2b1d30]/40 backdrop-blur-xs lg:hidden"
           onClick={() => setMobileSidebarOpen(false)}
         />
       )}
@@ -33,39 +33,39 @@ export function DashboardLayout({ children, title, subtitle }) {
       {/* Main Content Area */}
       <div className="flex-1 flex flex-col min-w-0 overflow-x-hidden">
         {/* Top Header Bar */}
-        <header className="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-100 px-6 py-4 flex items-center justify-between">
+        <header className="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-[#ede3f0] px-6 py-4 flex items-center justify-between">
           {/* Left Title / Greeting or Mobile Trigger */}
           <div className="flex items-center gap-3">
             <button
               onClick={() => setMobileSidebarOpen(true)}
-              className="lg:hidden p-2 -ml-2 rounded-xl text-slate-500 hover:text-slate-900 hover:bg-slate-100 transition"
+              className="lg:hidden p-2 -ml-2 rounded-xl text-[#6e5975] hover:text-[#2b1d30] hover:bg-[#faf8fb] transition"
               aria-label="Open Navigation Sidebar"
             >
               <Menu className="w-5 h-5" />
             </button>
 
             <div>
-              {title && <h1 className="text-xl font-bold text-slate-900 font-['Plus_Jakarta_Sans']">{title}</h1>}
-              {subtitle && <p className="text-xs text-slate-500">{subtitle}</p>}
+              {title && <h1 className="text-xl font-bold text-[#2b1d30] font-['Plus_Jakarta_Sans']">{title}</h1>}
+              {subtitle && <p className="text-xs text-[#6e5975]">{subtitle}</p>}
             </div>
           </div>
 
           {/* Right User & Notification Controls */}
           <div className="flex items-center gap-4">
             {/* Notification Bell */}
-            <button className="relative p-2 rounded-xl text-slate-500 hover:text-slate-800 hover:bg-slate-100 transition cursor-pointer">
+            <button className="relative p-2 rounded-xl text-[#6e5975] hover:text-[#2b1d30] hover:bg-[#faf8fb] transition cursor-pointer">
               <Bell className="w-5 h-5" />
-              <span className="absolute top-2 right-2 w-2 h-2 rounded-full bg-rose-500 ring-2 ring-white" />
+              <span className="absolute top-2 right-2 w-2 h-2 rounded-full bg-[#fa846e] ring-2 ring-white" />
             </button>
 
             {/* User Profile Pill */}
-            <div className="flex items-center gap-3 pl-2 border-l border-slate-200">
-              <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-purple-500 to-indigo-500 flex items-center justify-center text-white font-bold text-xs shadow-sm ring-2 ring-purple-100">
+            <div className="flex items-center gap-3 pl-2 border-l border-[#ede3f0]">
+              <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-[#8c60a2] via-[#cd6775] to-[#fa846e] flex items-center justify-center text-white font-bold text-xs shadow-sm ring-2 ring-[#ce93cb]/40">
                 {user?.initials || 'JD'}
               </div>
               <div className="hidden sm:block text-left">
-                <p className="text-xs font-bold text-slate-800 leading-none">{user?.name || 'John Doe'}</p>
-                <p className="text-[11px] text-slate-400 font-medium mt-0.5">{user?.role || 'Candidate'}</p>
+                <p className="text-xs font-bold text-[#2b1d30] leading-none">{user?.name || 'John Doe'}</p>
+                <p className="text-[11px] text-[#6e5975] font-medium mt-0.5">{user?.role || 'Candidate'}</p>
               </div>
             </div>
           </div>

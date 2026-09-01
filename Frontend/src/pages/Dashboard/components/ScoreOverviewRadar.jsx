@@ -19,7 +19,7 @@ const radarData = [
 
 export function ScoreOverviewRadar({ data = radarData }) {
   return (
-    <Card className="h-full border border-slate-100 flex flex-col justify-between">
+    <Card className="h-full border border-[#ede3f0] flex flex-col justify-between">
       <CardHeader className="mb-2">
         <CardTitle>Score Overview</CardTitle>
       </CardHeader>
@@ -27,31 +27,31 @@ export function ScoreOverviewRadar({ data = radarData }) {
       <div className="w-full h-64 sm:h-72">
         <ResponsiveContainer width="100%" height="100%">
           <RadarChart cx="50%" cy="50%" outerRadius="75%" data={data}>
-            <PolarGrid stroke="#e2e8f0" strokeDasharray="3 3" />
+            <PolarGrid stroke="#ede3f0" strokeDasharray="3 3" />
             <PolarAngleAxis
               dataKey="metric"
-              tick={{ fill: '#64748b', fontSize: 11, fontWeight: 500 }}
+              tick={{ fill: '#6e5975', fontSize: 11, fontWeight: 600 }}
             />
             <PolarRadiusAxis
               angle={30}
               domain={[0, 100]}
-              tick={{ fill: '#94a3b8', fontSize: 9 }}
+              tick={{ fill: '#a08ba7', fontSize: 9 }}
               axisLine={false}
             />
             <Radar
               name="Candidate Score"
               dataKey="value"
-              stroke="#7c3aed"
-              strokeWidth={2}
-              fill="#7c3aed"
-              fillOpacity={0.25}
+              stroke="#8c60a2"
+              strokeWidth={2.5}
+              fill="#8c60a2"
+              fillOpacity={0.28}
             />
           </RadarChart>
         </ResponsiveContainer>
       </div>
 
-      <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-medium">
-        <span>Average Index: <strong className="text-purple-700 font-bold">77.6%</strong></span>
+      <div className="pt-3 border-t border-[#ede3f0] flex items-center justify-between text-xs text-[#6e5975] font-medium">
+        <span>Average Index: <strong className="text-[#6e4876] font-bold">77.6%</strong></span>
         <span>Based on 8 sessions</span>
       </div>
     </Card>

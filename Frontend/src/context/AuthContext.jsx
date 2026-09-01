@@ -10,7 +10,7 @@ const DEFAULT_MOCK_USER = {
   role: 'Candidate',
   targetRole: 'Software Engineer',
   avatar: null,
-  initials: 'AD',
+  initials: 'JD',
   joinedDate: 'May 2025',
 };
 
@@ -95,6 +95,16 @@ export function AuthProvider({ children }) {
   };
 
   /**
+   * Update candidate target role
+   */
+  const updateTargetRole = (targetRole) => {
+    if (!user) return;
+    const updated = { ...user, targetRole };
+    setUser(updated);
+    localStorage.setItem('interview_sense_user', JSON.stringify(updated));
+  };
+
+  /**
    * Logout method
    */
   const logout = () => {
@@ -111,6 +121,7 @@ export function AuthProvider({ children }) {
     isLoading,
     login,
     register,
+    updateTargetRole,
     logout,
   };
 

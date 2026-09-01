@@ -5,7 +5,7 @@ import Card from '../../../components/ui/Card';
 const features = [
   {
     icon: Eye,
-    color: 'text-purple-600 bg-purple-50 border-purple-100',
+    color: 'text-[#8c60a2] bg-[#8c60a2]/10 border-[#8c60a2]/20',
     title: 'Computer Vision Analysis',
     model: 'MediaPipe & OpenCV',
     description:
@@ -13,7 +13,7 @@ const features = [
   },
   {
     icon: Mic,
-    color: 'text-blue-600 bg-blue-50 border-blue-100',
+    color: 'text-[#fa846e] bg-[#fa846e]/10 border-[#fa846e]/20',
     title: 'Speech & Acoustic Intelligence',
     model: 'OpenAI Whisper & NLP',
     description:
@@ -21,7 +21,7 @@ const features = [
   },
   {
     icon: Brain,
-    color: 'text-indigo-600 bg-indigo-50 border-indigo-100',
+    color: 'text-[#6e4876] bg-[#6e4876]/10 border-[#6e4876]/20',
     title: 'Contextual AI Evaluation',
     model: 'Google Gemini LLM',
     description:
@@ -29,7 +29,7 @@ const features = [
   },
   {
     icon: BarChart3,
-    color: 'text-emerald-600 bg-emerald-50 border-emerald-100',
+    color: 'text-[#cd6775] bg-[#cd6775]/10 border-[#cd6775]/20',
     title: 'Comprehensive Viva Reports',
     model: 'Multi-Modal Scorecard',
     description:
@@ -37,7 +37,7 @@ const features = [
   },
   {
     icon: Clock,
-    color: 'text-amber-600 bg-amber-50 border-amber-100',
+    color: 'text-[#8c60a2] bg-[#ce93cb]/20 border-[#ce93cb]/40',
     title: 'Simulated Timed Interviews',
     model: 'Real-World Exam Conditions',
     description:
@@ -45,7 +45,7 @@ const features = [
   },
   {
     icon: Award,
-    color: 'text-rose-600 bg-rose-50 border-rose-100',
+    color: 'text-[#fa846e] bg-[#fa846e]/10 border-[#fa846e]/20',
     title: 'Historical Progress Tracking',
     model: 'Analytics & Skill Growth',
     description:
@@ -55,18 +55,18 @@ const features = [
 
 export function FeaturesSection() {
   return (
-    <section id="features" className="py-20 bg-white border-y border-slate-100">
+    <section id="features" className="py-20 bg-white border-y border-[#ede3f0]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
-          <span className="text-xs font-bold uppercase tracking-wider text-purple-600">
+          <span className="text-xs font-bold uppercase tracking-wider text-[#8c60a2]">
             Multi-Modal AI Architecture
           </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight font-['Plus_Jakarta_Sans']">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#2b1d30] tracking-tight font-['Plus_Jakarta_Sans']">
             Engineered for Total Interview Readiness
           </h2>
-          <p className="text-sm sm:text-base text-slate-600">
+          <p className="text-sm sm:text-base text-[#6e5975]">
             Every layer of your communication is analyzed by specialized AI models to provide instant, constructive guidance.
           </p>
         </div>
@@ -76,17 +76,17 @@ export function FeaturesSection() {
           {features.map((item, idx) => {
             const Icon = item.icon;
             return (
-              <Card key={idx} hover className="border border-slate-100">
+              <Card key={idx} hover className="border border-[#ede3f0]">
                 <div className={`w-12 h-12 rounded-2xl flex items-center justify-center mb-5 border ${item.color}`}>
                   <Icon className="w-6 h-6" />
                 </div>
-                <span className="text-[11px] font-mono font-semibold text-purple-600 block mb-1">
+                <span className="text-[11px] font-mono font-semibold text-[#8c60a2] block mb-1">
                   {item.model}
                 </span>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">
+                <h3 className="text-lg font-bold text-[#2b1d30] mb-2">
                   {item.title}
                 </h3>
-                <p className="text-sm text-slate-600 leading-relaxed">
+                <p className="text-sm text-[#6e5975] leading-relaxed">
                   {item.description}
                 </p>
               </Card>
