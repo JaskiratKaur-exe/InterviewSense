@@ -10,7 +10,8 @@ export const ROUTES = Object.freeze({
 
   // Protected Application Routes
   DASHBOARD: '/dashboard',
-  MOCK_INTERVIEW: '/mock-interview',
+  INTERVIEW_SETUP: '/interview/setup',
+  MOCK_INTERVIEW: '/interview/setup', // Alias for smooth navigation
   LIVE_SESSION: '/interview/session',
   REPORTS: '/reports',
   REPORT_DETAIL: (id = ':reportId') => `/reports/${id}`,

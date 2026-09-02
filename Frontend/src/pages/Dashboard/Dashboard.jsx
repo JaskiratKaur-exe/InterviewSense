@@ -8,7 +8,6 @@ import {
   Layers,
   MessageSquareCheck,
   Globe2,
-  Sparkles,
   Clock,
 } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
@@ -88,7 +87,7 @@ export function Dashboard() {
   return (
     <DashboardLayout
       title="Dashboard"
-      subtitle={`Welcome back, ${candidateName.split(' ')[0]} 👋 Track your progress and improve your interview skills.`}
+      subtitle={`Welcome back, ${candidateName.split(' ')[0]} 👋 Track your performance and communication skills.`}
     >
       <div className="space-y-7">
 
@@ -100,10 +99,10 @@ export function Dashboard() {
             </div>
             <div>
               <h3 className="text-base font-bold text-[#2b1d30]">
-                Ready for your next mock interview?
+                Ready for your next interview session?
               </h3>
               <p className="text-xs text-[#6e5975] mt-0.5">
-                Simulate real viva & technical interview conditions with instant multi-modal AI feedback.
+                Record your responses to structured questions for in-depth post-interview AI analysis.
               </p>
             </div>
           </div>
@@ -129,9 +128,9 @@ export function Dashboard() {
               </select>
             </div>
 
-            <Link to={ROUTES.MOCK_INTERVIEW}>
+            <Link to={ROUTES.INTERVIEW_SETUP}>
               <Button size="md" rightIcon={ArrowRight} className="shadow-md">
-                Start Mock Interview
+                Start Interview Session
               </Button>
             </Link>
           </div>
@@ -154,18 +153,18 @@ export function Dashboard() {
           </div>
         </div>
 
-        {/* 4. Quick Practice Tracks Row (Consumes space with high-value modular modules) */}
+        {/* 4. Quick Practice Tracks Row */}
         <div className="space-y-4 pt-2">
           <div className="flex items-center justify-between">
             <div>
               <h3 className="text-lg font-bold text-[#2b1d30] font-['Plus_Jakarta_Sans']">
-                Recommended Practice Tracks
+                Recommended Interview Tracks
               </h3>
               <p className="text-xs text-[#6e5975]">
                 Tailored for <strong className="text-[#6e4876]">{currentRole}</strong> candidates.
               </p>
             </div>
-            <Link to={ROUTES.MOCK_INTERVIEW} className="text-xs font-bold text-[#8c60a2] hover:text-[#6e4876]">
+            <Link to={ROUTES.INTERVIEW_SETUP} className="text-xs font-bold text-[#8c60a2] hover:text-[#6e4876]">
               View All Tracks →
             </Link>
           </div>
@@ -203,7 +202,7 @@ export function Dashboard() {
                       <span className="font-medium">{track.questions}</span>
                     </div>
 
-                    <Link to={ROUTES.MOCK_INTERVIEW}>
+                    <Link to={ROUTES.INTERVIEW_SETUP}>
                       <span className="font-bold text-[#8c60a2] hover:text-[#fa846e] flex items-center gap-1">
                         Start <ArrowRight className="w-3 h-3" />
                       </span>

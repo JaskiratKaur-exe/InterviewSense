@@ -19,7 +19,7 @@ import { cn } from '../../utils/cn';
 
 const navItems = [
   { name: 'Dashboard', path: ROUTES.DASHBOARD, icon: LayoutDashboard },
-  { name: 'Mock Interview', path: ROUTES.MOCK_INTERVIEW, icon: Video, badge: 'Live', badgeColor: 'bg-[#fa846e]/15 text-[#fa846e] border-[#fa846e]/30' },
+  { name: 'Interview Session', path: ROUTES.INTERVIEW_SETUP, icon: Video, badge: 'Live', badgeColor: 'bg-[#fa846e]/15 text-[#fa846e] border-[#fa846e]/30' },
   { name: 'My Reports', path: ROUTES.REPORTS, icon: FileText, badge: '8', badgeColor: 'bg-[#8c60a2]/15 text-[#6e4876] border-[#8c60a2]/30' },
   { name: 'Progress', path: ROUTES.PROGRESS, icon: TrendingUp, badge: '+14%', badgeColor: 'bg-emerald-50 text-emerald-700 border-emerald-200' },
   { name: 'Profile', path: ROUTES.PROFILE, icon: User },
@@ -54,7 +54,7 @@ export function Sidebar({ className, onClose }) {
               Interview<span className="text-[#8c60a2]">Sense</span>
             </span>
             <span className="text-[11px] text-[#6e5975] font-medium block">
-              Behavioral & Tech Analysis
+              Behavioral & Speech Analysis
             </span>
           </div>
         </NavLink>
@@ -107,9 +107,9 @@ export function Sidebar({ className, onClose }) {
         </nav>
       </div>
 
-      {/* Middle/Bottom Rich Widgets (Eliminates empty whitespace) */}
+      {/* Middle/Bottom Rich Widgets */}
       <div className="space-y-4 pt-4 border-t border-[#ede3f0]/80">
-        
+
         {/* Practice Streak Card */}
         <div className="p-3.5 rounded-2xl bg-[#faf8fb] border border-[#ede3f0]">
           <div className="flex items-center justify-between mb-1.5">
@@ -122,7 +122,7 @@ export function Sidebar({ className, onClose }) {
           <div className="w-full bg-[#ede3f0] h-1.5 rounded-full overflow-hidden">
             <div className="bg-gradient-to-r from-[#8c60a2] to-[#fa846e] h-full rounded-full w-[80%]" />
           </div>
-          <p className="text-[10px] text-[#a08ba7] mt-1.5 font-medium">2 more interviews to hit weekly target!</p>
+          <p className="text-[10px] text-[#a08ba7] mt-1.5 font-medium">2 more sessions to hit weekly target!</p>
         </div>
 
         {/* Motivational Card */}

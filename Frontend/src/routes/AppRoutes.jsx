@@ -10,6 +10,7 @@ const Login = lazy(() => import('../pages/Auth/Login.jsx'));
 const Register = lazy(() => import('../pages/Auth/Register.jsx'));
 const Dashboard = lazy(() => import('../pages/Dashboard/Dashboard.jsx'));
 const MockInterview = lazy(() => import('../pages/MockInterview/MockInterview.jsx'));
+const InterviewSession = lazy(() => import('../pages/InterviewSession/InterviewSession.jsx'));
 const Reports = lazy(() => import('../pages/Reports/Reports.jsx'));
 const Progress = lazy(() => import('../pages/Progress/Progress.jsx'));
 const Profile = lazy(() => import('../pages/Profile/Profile.jsx'));
@@ -35,6 +36,14 @@ export function AppRoutes() {
           }
         />
         <Route
+          path={ROUTES.INTERVIEW_SETUP}
+          element={
+            <ProtectedRoute>
+              <MockInterview />
+            </ProtectedRoute>
+          }
+        />
+        <Route
           path={ROUTES.MOCK_INTERVIEW}
           element={
             <ProtectedRoute>
@@ -46,7 +55,7 @@ export function AppRoutes() {
           path={ROUTES.LIVE_SESSION}
           element={
             <ProtectedRoute>
-              <MockInterview />
+              <InterviewSession />
             </ProtectedRoute>
           }
         />
