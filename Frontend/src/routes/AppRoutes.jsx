@@ -12,6 +12,7 @@ const Dashboard = lazy(() => import('../pages/Dashboard/Dashboard.jsx'));
 const MockInterview = lazy(() => import('../pages/MockInterview/MockInterview.jsx'));
 const InterviewSession = lazy(() => import('../pages/InterviewSession/InterviewSession.jsx'));
 const Reports = lazy(() => import('../pages/Reports/Reports.jsx'));
+const ReportDetail = lazy(() => import('../pages/Reports/ReportDetail.jsx'));
 const Progress = lazy(() => import('../pages/Progress/Progress.jsx'));
 const Profile = lazy(() => import('../pages/Profile/Profile.jsx'));
 const Settings = lazy(() => import('../pages/Settings/Settings.jsx'));
@@ -64,6 +65,14 @@ export function AppRoutes() {
           element={
             <ProtectedRoute>
               <Reports />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path={ROUTES.REPORT_DETAIL()}
+          element={
+            <ProtectedRoute>
+              <ReportDetail />
             </ProtectedRoute>
           }
         />
