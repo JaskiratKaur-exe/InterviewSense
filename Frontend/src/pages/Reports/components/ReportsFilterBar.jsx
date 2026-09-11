@@ -13,7 +13,7 @@ const CATEGORY_TABS = [
 export function ReportsFilterBar({ search, setSearch, selectedCategory, setSelectedCategory }) {
   return (
     <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 p-4 rounded-2xl bg-white border border-[#ede3f0] shadow-2xs">
-      
+
       {/* Category Filter Tabs */}
       <div className="flex flex-wrap items-center gap-1.5 overflow-x-auto">
         {CATEGORY_TABS.map((tab) => {

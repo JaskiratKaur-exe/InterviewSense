@@ -20,7 +20,7 @@ export function ScoreDonutCard({ score = 78, rating = 'Good Performance' }) {
       </CardHeader>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center py-2">
-        
+
         {/* Left: Overall Circular Score Metric */}
         <div className="flex flex-col items-center justify-center p-5 rounded-2xl bg-gradient-to-br from-[#8c60a2]/10 via-[#faf8fb] to-[#fa846e]/10 border border-[#ce93cb]/30 text-center relative">
           <div className="w-24 h-24 rounded-full bg-gradient-to-tr from-[#6e4876] via-[#8c60a2] to-[#cd6775] text-white flex flex-col items-center justify-center shadow-lg shadow-[#8c60a2]/25 mb-3 ring-4 ring-white">
@@ -63,7 +63,7 @@ export function ScoreDonutCard({ score = 78, rating = 'Good Performance' }) {
                 />
               </PieChart>
             </ResponsiveContainer>
-            
+
             <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
               <span className="text-xs font-bold text-[#2b1d30]">Split</span>
               <span className="text-[10px] text-[#a08ba7]">Ratio</span>

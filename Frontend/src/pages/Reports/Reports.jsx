@@ -79,7 +79,7 @@ export function Reports() {
       subtitle="View, analyze, and compare all your historical AI interview performance reports."
     >
       <div className="space-y-6 max-w-[1550px] w-full mx-auto">
-        
+
         {/* Header CTA Banner */}
         <div className="p-5 rounded-3xl bg-gradient-to-r from-[#8c60a2]/10 via-[#ce93cb]/10 to-[#fa846e]/10 border border-[#ce93cb]/40 flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-2xs">
           <div className="flex items-center gap-3.5">
