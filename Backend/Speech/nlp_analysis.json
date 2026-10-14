@@ -1,0 +1,77 @@
+{
+    "question": "What is machine learning?",
+    "transcript": {
+        "word_count": 85,
+        "unique_word_count": 65,
+        "type_token_ratio": 0.765
+    },
+    "asr_quality": {
+        "average_confidence": 0.932,
+        "low_confidence_threshold": 0.5,
+        "low_confidence_word_count": 1,
+        "reliability_percent": 98.8,
+        "low_confidence_words": [
+            {
+                "word": "the",
+                "confidence": 0.457
+            }
+        ]
+    },
+    "filler_analysis": {
+        "total_fillers": 2,
+        "filler_rate_percent": 2.35,
+        "detected_fillers": {}
+    },
+    "repetition_analysis": {
+        "repetition_events": 2,
+        "repetition_rate_percent": 2.35,
+        "repeated_words": {
+            "which": 2,
+            "or": 2
+        },
+        "repeated_bigrams": {
+            "machine learning": 2
+        },
+        "repeated_trigrams": {},
+        "consecutive_repeated_bigrams": {},
+        "consecutive_repeated_trigrams": {}
+    },
+    "keyword_analysis": {
+        "expected_keywords": [
+            "algorithm",
+            "data",
+            "learning",
+            "machine",
+            "model",
+            "prediction",
+            "training"
+        ],
+        "matched_keywords": [
+            "data",
+            "learning",
+            "machine",
+            "prediction"
+        ],
+        "missing_keywords": [
+            "algorithm",
+            "model",
+            "training"
+        ],
+        "coverage_percent": 57.14
+    },
+    "semantic_analysis": {
+        "tfidf_cosine_similarity": 0.17,
+        "similarity_percent": 17.05
+    },
+    "speaking_analysis": {
+        "response_time_seconds": 49.95,
+        "actual_speaking_time_seconds": 35.58,
+        "total_pause_time_seconds": 14.37,
+        "pause_count": 36,
+        "average_pause_seconds": 0.4,
+        "long_pause_count": 1,
+        "speech_rate_wpm": 143.35,
+        "overall_response_rate_wpm": 102.1,
+        "average_asr_confidence": 0.932
+    }
+}

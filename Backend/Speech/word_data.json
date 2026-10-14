@@ -1,0 +1,500 @@
+[
+    {
+        "word": "i",
+        "start": 5.61,
+        "end": 5.88,
+        "confidence": 0.971513
+    },
+    {
+        "word": "am",
+        "start": 5.88,
+        "end": 6.09,
+        "confidence": 0.971513
+    },
+    {
+        "word": "currently",
+        "start": 6.09,
+        "end": 6.69,
+        "confidence": 1.0
+    },
+    {
+        "word": "working",
+        "start": 6.69,
+        "end": 7.23,
+        "confidence": 1.0
+    },
+    {
+        "word": "on",
+        "start": 7.26,
+        "end": 7.467147,
+        "confidence": 1.0
+    },
+    {
+        "word": "a",
+        "start": 7.47,
+        "end": 7.5,
+        "confidence": 0.870909
+    },
+    {
+        "word": "capstone",
+        "start": 7.50591,
+        "end": 8.13,
+        "confidence": 1.0
+    },
+    {
+        "word": "project",
+        "start": 8.13,
+        "end": 8.64,
+        "confidence": 0.994736
+    },
+    {
+        "word": "related",
+        "start": 8.64,
+        "end": 9.24,
+        "confidence": 1.0
+    },
+    {
+        "word": "to",
+        "start": 9.24,
+        "end": 9.45,
+        "confidence": 0.999965
+    },
+    {
+        "word": "artificial",
+        "start": 9.48,
+        "end": 10.17,
+        "confidence": 0.998551
+    },
+    {
+        "word": "intelligence",
+        "start": 10.17,
+        "end": 10.829736,
+        "confidence": 0.995497
+    },
+    {
+        "word": "my",
+        "start": 11.73,
+        "end": 12.06,
+        "confidence": 1.0
+    },
+    {
+        "word": "role",
+        "start": 12.06,
+        "end": 12.48,
+        "confidence": 1.0
+    },
+    {
+        "word": "in",
+        "start": 12.48,
+        "end": 12.66,
+        "confidence": 1.0
+    },
+    {
+        "word": "the",
+        "start": 12.66,
+        "end": 12.75,
+        "confidence": 1.0
+    },
+    {
+        "word": "project",
+        "start": 12.75,
+        "end": 13.29,
+        "confidence": 1.0
+    },
+    {
+        "word": "is",
+        "start": 13.32,
+        "end": 13.56,
+        "confidence": 1.0
+    },
+    {
+        "word": "mainly",
+        "start": 13.56,
+        "end": 14.04,
+        "confidence": 1.0
+    },
+    {
+        "word": "focused",
+        "start": 14.04,
+        "end": 14.67,
+        "confidence": 0.934265
+    },
+    {
+        "word": "on",
+        "start": 14.7,
+        "end": 15.03,
+        "confidence": 1.0
+    },
+    {
+        "word": "natural",
+        "start": 15.03,
+        "end": 15.51,
+        "confidence": 1.0
+    },
+    {
+        "word": "language",
+        "start": 15.51,
+        "end": 15.93,
+        "confidence": 1.0
+    },
+    {
+        "word": "processing",
+        "start": 15.93,
+        "end": 16.62,
+        "confidence": 1.0
+    },
+    {
+        "word": "and",
+        "start": 16.71,
+        "end": 17.01,
+        "confidence": 1.0
+    },
+    {
+        "word": "speech",
+        "start": 17.01,
+        "end": 17.4,
+        "confidence": 1.0
+    },
+    {
+        "word": "analysis",
+        "start": 17.4,
+        "end": 17.91,
+        "confidence": 1.0
+    },
+    {
+        "word": "the",
+        "start": 19.11,
+        "end": 19.29,
+        "confidence": 0.845833
+    },
+    {
+        "word": "system",
+        "start": 19.298377,
+        "end": 19.92,
+        "confidence": 1.0
+    },
+    {
+        "word": "converts",
+        "start": 19.95,
+        "end": 20.61,
+        "confidence": 0.857427
+    },
+    {
+        "word": "that",
+        "start": 20.67,
+        "end": 20.877008,
+        "confidence": 0.51151
+    },
+    {
+        "word": "candidate's",
+        "start": 20.877008,
+        "end": 21.78,
+        "confidence": 0.670809
+    },
+    {
+        "word": "speech",
+        "start": 21.93,
+        "end": 22.56,
+        "confidence": 1.0
+    },
+    {
+        "word": "into",
+        "start": 22.62,
+        "end": 23.040002,
+        "confidence": 0.999326
+    },
+    {
+        "word": "text",
+        "start": 23.040002,
+        "end": 23.49,
+        "confidence": 0.999666
+    },
+    {
+        "word": "and",
+        "start": 23.49,
+        "end": 23.76,
+        "confidence": 0.999666
+    },
+    {
+        "word": "then",
+        "start": 23.76,
+        "end": 24.03,
+        "confidence": 1.0
+    },
+    {
+        "word": "analyses",
+        "start": 24.03,
+        "end": 24.72,
+        "confidence": 0.602584
+    },
+    {
+        "word": "the",
+        "start": 24.72,
+        "end": 24.87,
+        "confidence": 0.862937
+    },
+    {
+        "word": "script",
+        "start": 24.882363,
+        "end": 25.5,
+        "confidence": 0.997726
+    },
+    {
+        "word": "the",
+        "start": 25.92,
+        "end": 26.07,
+        "confidence": 0.457123
+    },
+    {
+        "word": "transcript",
+        "start": 26.10082,
+        "end": 26.91,
+        "confidence": 0.976069
+    },
+    {
+        "word": "for",
+        "start": 27.54,
+        "end": 27.957109,
+        "confidence": 0.850864
+    },
+    {
+        "word": "factors",
+        "start": 27.961174,
+        "end": 28.619154,
+        "confidence": 0.986737
+    },
+    {
+        "word": "such",
+        "start": 28.619154,
+        "end": 28.89,
+        "confidence": 1.0
+    },
+    {
+        "word": "as",
+        "start": 28.89,
+        "end": 29.309786,
+        "confidence": 1.0
+    },
+    {
+        "word": "filler",
+        "start": 30.12,
+        "end": 30.51,
+        "confidence": 0.877294
+    },
+    {
+        "word": "word",
+        "start": 30.51,
+        "end": 30.87,
+        "confidence": 0.59291
+    },
+    {
+        "word": "repetition",
+        "start": 31.35,
+        "end": 32.28,
+        "confidence": 1.0
+    },
+    {
+        "word": "vocabulary",
+        "start": 32.49,
+        "end": 33.39,
+        "confidence": 1.0
+    },
+    {
+        "word": "vocabulary",
+        "start": 34.08,
+        "end": 34.77,
+        "confidence": 1.0
+    },
+    {
+        "word": "richness",
+        "start": 34.77,
+        "end": 35.28,
+        "confidence": 1.0
+    },
+    {
+        "word": "keyword",
+        "start": 36.54,
+        "end": 37.05,
+        "confidence": 0.978152
+    },
+    {
+        "word": "relevance",
+        "start": 37.050011,
+        "end": 37.65,
+        "confidence": 0.960319
+    },
+    {
+        "word": "pauses",
+        "start": 38.04,
+        "end": 38.64,
+        "confidence": 0.948968
+    },
+    {
+        "word": "and",
+        "start": 38.85,
+        "end": 39.09,
+        "confidence": 0.998216
+    },
+    {
+        "word": "speaking",
+        "start": 39.09,
+        "end": 39.569996,
+        "confidence": 1.0
+    },
+    {
+        "word": "rate",
+        "start": 39.57,
+        "end": 39.9,
+        "confidence": 0.999829
+    },
+    {
+        "word": "we're",
+        "start": 40.95,
+        "end": 41.249414,
+        "confidence": 0.949142
+    },
+    {
+        "word": "using",
+        "start": 41.249414,
+        "end": 41.73,
+        "confidence": 0.999949
+    },
+    {
+        "word": "bosch",
+        "start": 41.73,
+        "end": 42.36,
+        "confidence": 0.618881
+    },
+    {
+        "word": "zeo",
+        "start": 42.66,
+        "end": 43.2,
+        "confidence": 0.726226
+    },
+    {
+        "word": "s",
+        "start": 43.2,
+        "end": 43.529993,
+        "confidence": 0.765489
+    },
+    {
+        "word": "k",
+        "start": 43.529993,
+        "end": 43.86,
+        "confidence": 0.772129
+    },
+    {
+        "word": "for",
+        "start": 45.15,
+        "end": 45.66,
+        "confidence": 0.980716
+    },
+    {
+        "word": "offline",
+        "start": 46.02,
+        "end": 46.59,
+        "confidence": 0.93054
+    },
+    {
+        "word": "speech",
+        "start": 46.59,
+        "end": 47.04,
+        "confidence": 1.0
+    },
+    {
+        "word": "recognition",
+        "start": 47.04,
+        "end": 47.85,
+        "confidence": 1.0
+    },
+    {
+        "word": "because",
+        "start": 47.85,
+        "end": 48.33,
+        "confidence": 1.0
+    },
+    {
+        "word": "our",
+        "start": 48.36,
+        "end": 48.628667,
+        "confidence": 0.9545
+    },
+    {
+        "word": "project",
+        "start": 48.628667,
+        "end": 49.11,
+        "confidence": 0.954773
+    },
+    {
+        "word": "does",
+        "start": 49.11,
+        "end": 49.32,
+        "confidence": 1.0
+    },
+    {
+        "word": "not",
+        "start": 49.32,
+        "end": 49.56,
+        "confidence": 1.0
+    },
+    {
+        "word": "depend",
+        "start": 49.56,
+        "end": 49.98,
+        "confidence": 1.0
+    },
+    {
+        "word": "on",
+        "start": 49.98,
+        "end": 50.13,
+        "confidence": 1.0
+    },
+    {
+        "word": "external",
+        "start": 50.13,
+        "end": 50.706057,
+        "confidence": 1.0
+    },
+    {
+        "word": "yeah",
+        "start": 50.73,
+        "end": 50.966576,
+        "confidence": 0.777242
+    },
+    {
+        "word": "i",
+        "start": 50.966576,
+        "end": 51.091469,
+        "confidence": 0.948284
+    },
+    {
+        "word": "e",
+        "start": 51.12,
+        "end": 51.27,
+        "confidence": 0.941194
+    },
+    {
+        "word": "p",
+        "start": 51.27,
+        "end": 51.448788,
+        "confidence": 0.68969
+    },
+    {
+        "word": "i",
+        "start": 51.448788,
+        "end": 51.655104,
+        "confidence": 0.684234
+    },
+    {
+        "word": "thank",
+        "start": 55.17,
+        "end": 55.41,
+        "confidence": 1.0
+    },
+    {
+        "word": "you",
+        "start": 55.41,
+        "end": 55.56,
+        "confidence": 0.982022
+    }
+]
